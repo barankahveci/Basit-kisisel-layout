@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+*{
+
+    font-family: 'Playfair Display', serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/bg.jpg);
+    background-size: cover;
+}
+.kutu{
+    width: 450px;
+    background: linear-gradient(to right, rgba(81,138,151, .2), rgba(106,107,116, .5));
+    padding: 40px;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+}
+.kutu img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.5s ease;
+    cursor:pointer
+}
+.kutu img:hover{
+    transform: scale(0.8);
+    transition: 0.5s ease
+}
+
+.kutu h1{
+    font-weight: 100 ;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+.kutu h5{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.kutu p{
+    text-align: justify;
+}
+.kutu ul{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.kutu ul li{
+    display: inline-block;
+    margin: 6px;
+}
+.kutu li a{
+    color: white;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+    
+}
+.kutu li a:hover{
+    color: #b9b9b9;
+}
